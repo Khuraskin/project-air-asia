@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Air-asia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,30 +19,34 @@
 
 <body>
     <div class="wrapper">
-        <div class="container">
-            <div class="header">
-                <div class="header-logo"><a class="logo" href="#"><img class="logo__img"
-                            src="./img/Header_footer/logo.png" alt="logo_img" /></a></div>
-
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="list item">
-                            <a class="item__link" href="#">Главная</a>
-                        </li>
-                        <li class="list item">
-                            <a class="item__link" href="#">Услуги</a>
-                        </li>
-                        <li class="list item">
-                            <a class="item__link" href="#">отзывы</a>
-                        </li>
-                    </ul>
-                </nav>
-                <address class="contacts">
-                    <a href="tel:88007003030" class="contacts__tel">8 800 700 30 30</a>
-                    <div class="contacts__scheedule">График работы</div>
-                </address>
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__logo logo">
+                        <a href="#" class="logo__link">
+                            <img src="./img/Header_footer/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Услуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Отзывы</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <address class="contacts">
+                        <a href="tel:8 800 700 30 30" class="contacts__tel">8 800 700 30 30</a>
+                        <div class="contacts__scheedule">График работы</div>
+                    </address>
+                </div>
             </div>
-        </div>
+        </header>
 
         <main class="main-page">
             <section class="preview">
@@ -173,36 +182,43 @@
                 </div>
             </section>
         </main>
-        <div class="container">
+        <div class="wrap">
             <footer class="footer">
-                <div class="footer-logo"><a class="logo" href="#"><img class="logo__img"
-                            src="./img/Header_footer/logo.png" alt="logo_img" /></a></div>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="list item">
-                            <a class="item__link" href="#">Главная</a>
-                        </li>
-                        <li class="list item">
-                            <a class="item__link" href="#">Услуги</a>
-                        </li>
-                        <li class="list item">
-                            <a class="item__link" href="#">отзывы</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="social">
-                    <a href="#" class="social__media">
-                        <img class="social__pic" src="#" alt="telegram_logo" /></a>
-                    <a href="#" class="social__media">
-                        <img class="social__pic" src="#" alt="VK_logo" /></a>
-                    <a href="#" class="social__media">
-                        <img class="social__pic" src="#" alt="facebook_logo" /></a>
-                    <a href="#" class="social__media">
-                        <img class="social__pic" src="#" alt="instagram_logo" /></a>
-                </div>
-                <div class="contacts">
-                    <address class="contacts__free">Бесплатный звонок по России</address>
-                    <a href="tel:88007003030" class="contacts__tel">8 800 700 30 30</a>
+                <div class="container">
+                    <div class="content-footer">
+                        <div class="footer-logo logo">
+                            <a href="#" class="logo__link">
+                                <img src="./img/Header_footer/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Главная</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Услуги</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="social">
+                            <a href="#" class="social__media">
+                                <img class="social__pic" src="#" alt="telegram_logo" /></a>
+                            <a href="#" class="social__media">
+                                <img class="social__pic" src="#" alt="VK_logo" /></a>
+                            <a href="#" class="social__media">
+                                <img class="social__pic" src="#" alt="facebook_logo" /></a>
+                            <a href="#" class="social__media">
+                                <img class="social__pic" src="#" alt="instagram_logo" /></a>
+                        </div>
+                        <address class="contacts">
+                            <a href="tel:8 800 700 30 30" class="contacts__tel">8 800 700 30 30</a>
+                            <div class="contacts__scheedule">График работы</div>
+                        </address>
+                    </div>
                 </div>
             </footer>
         </div>
