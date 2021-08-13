@@ -32,7 +32,8 @@ body {
   margin: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -54,7 +55,11 @@ img {
 
 .menu__item {
   display: inline-block;
+  position: relative;
+  left: -11px;
+  top: -2px;
   margin-right: 54px;
+  font-size: 14px;
 }
 
 .menu__link {
@@ -113,7 +118,7 @@ img {
 }
 
 .preview__btn {
-  background-color: #F5170E;
+  background-color: #f5170e;
   border-radius: 35px;
   width: 168px;
   height: 55px;
@@ -122,47 +127,103 @@ img {
   text-decoration: none;
   outline: none;
   cursor: pointer;
-  
 }
 
-/*Tousr*/
+/*Flame*/
+
+.flame {
+  width: 273px;
+  height: 49px;
+  margin-bottom: ;
+}
 
 .flame__fire {
   display: inline-block;
   position: relative;
-  top: -84px;
+  top: -126px;
   left: 508px;
   width: 21px;
   height: 28px;
 }
 
-.tours__title {
+.lettering {
   position: relative;
   top: -44px;
   left: 223px;
-  width: 273px;
-  height: 49px;
+  margin-bottom: 51px;
   font-size: 36px;
-  color: ;
+  color: black;
 }
 
-.tours__services {
-  display: inline-block;
+/*Tours*/
+
+.tours {  
   position: relative;
-  top: 25px;
-  left: 14px;
+  
+}
+
+.block {
+  display: inline-block;
+}
+
+.first-item {
+  position: relative;
+  top: -25px;
+  left: 219px;
+  width: 362px;
+  height: 305px;
   margin-bottom: 227px;
   background-color: #fff;
 }
 
+.second-item{
+  position: relative;
+  top: -24px;
+  left: 216px;
+  width: 362px;
+  height: 305px;
+  padding: 27px;
+  margin-bottom: 227px;
+  background-color: #fff;
+}
+
+.three-item {
+  position: relative;
+  top: -18px;
+  left: 212px;
+  width: 362px;
+  height: 305px;
+  margin-bottom: 227px;
+  background-color: #fff;
+}
+
+.tours__ico {
+  width: 26px;
+  height: 26px;
+}
+
+.tours__icon {
+  width: 36px;
+  height: 26px;
+}
+
 .tours__pic {
+  margin: 0 auto;
   width: 362px;
   height: 144px;
 }
 
+.tours__food {
+  font-size: 16px;
+}
+
+.tours__text {
+  font-size: 14px;
+}
+
 /*Footer*/
 
-.wrap{
+.wrap {
   background-color: #001821;
   height: 20%;
 }
