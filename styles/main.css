@@ -125,6 +125,40 @@ img {
   
 }
 
+/*Tousr*/
+
+.flame__fire {
+  display: inline-block;
+  position: relative;
+  top: -84px;
+  left: 508px;
+  width: 21px;
+  height: 28px;
+}
+
+.tours__title {
+  position: relative;
+  top: -44px;
+  left: 223px;
+  width: 273px;
+  height: 49px;
+  font-size: 36px;
+  color: ;
+}
+
+.tours__services {
+  display: inline-block;
+  position: relative;
+  top: 25px;
+  left: 14px;
+  margin-bottom: 227px;
+  background-color: #fff;
+}
+
+.tours__pic {
+  width: 362px;
+  height: 144px;
+}
 
 /*Footer*/
 
@@ -138,3 +172,4 @@ img {
 
 .footer-logo {
   margin-right: 79px;
+}
