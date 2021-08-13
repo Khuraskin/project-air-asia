@@ -95,6 +95,19 @@ img {
 .section {
   font-size: 18px;
   color: #fff;
+  margin-bottom: 33px;
+}
+
+.preview__btn {
+  background-color: #F5170E;
+  border-radius: 35px;
+  width: 168px;
+  height: 55px;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
 }
 
 
