@@ -335,6 +335,21 @@ img {
   position: relative;
   line-height: 32px;
 }
+/*About US*/
+
+.about .us{
+display: inline-block;  
+}
+
+.about__pic-img {
+  width: 490px;
+  height: 505px;
+}
+
+.us-img {
+  width: 785px;
+  height: 455px;
+}
 
 
 
