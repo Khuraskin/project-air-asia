@@ -2,9 +2,13 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.wrapper_main {
-  background: url("../img/Fon/heder_fon.jpg") no-repeat top center;
+.wrapper{
   background-color: #001821;
+}
+
+.fon_main {
+  background: url("../img/Fon/heder_fon.jpg") no-repeat top center, background: url("../img/Fon/footer_fon") no-repeat bottom center;
+   
 }
 
 /*Header*/
@@ -137,6 +141,11 @@ p {
 
 /*Tours*/
 /*Блок с горящими турами*/
+
+.nblock::after {
+  content: url("../img/icon/flame.png");
+  margin-left: 12px;
+}
 
 .fiery-title {
   font-size: 36px;
