@@ -3,7 +3,7 @@ body {
 }
 
 .wrapper_main {
-  background: url("../img/Fon/heder_fon.jpg") no-repeat top center;
+  background: url("../img/Fon/heder_fon.jpg") no-repeat top center, background: url("../img/Fon/footer_fon") no-repeat bottom center;
   background-color: #001821;
 }
 
