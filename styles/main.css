@@ -2,9 +2,9 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.wrapper {
+.wrapper_main {
+  background: url("../img/Fon/heder_fon.jpg") no-repeat top center;
   background-color: #001821;
-  height: 100%;
 }
 
 /*Header*/
@@ -32,13 +32,7 @@ body {
   margin: 0;
 }
 
-html,
-body {
-  height: 100%;
-}
-
-ul,
-li {
+ul,li {
   list-style-type: none;
 }
 
@@ -51,7 +45,7 @@ img {
   position: relative;
   top: -7px;
   left: 3px;
-}
+ }
 
 .menu__item {
   display: inline-block;
@@ -62,10 +56,11 @@ img {
   font-size: 14px;
 }
 
+
 .menu__link {
   color: #fff;
   text-decoration: none;
-}
+ }
 
 .contacts {
   font-style: normal;
@@ -91,141 +86,233 @@ img {
 }
 
 /*Main-page*/
-
-.preview {
+/*Блок авторкие туры по Азии*/
+.basic {
   display: inline-block;
-  margin: 196px;
+  margin: 188px 0px 0 -29px;;
   width: 511px;
+  height: 333px;
   position: relative;
   top: -98px;
   left: 26px;
+  margin-bottom: 165px;
 }
 
-.preview__title {
+.view {
   font-size: 72px;
-  font-weight: bold;
-  margin-bottom: 18px;
+  font-weight: 700;
   color: #fff;
   position: relative;
-  top: -26px;
-  left: -3px;
+  margin-top: 27px;
+ 
 }
 
-.section {
+.open-title {
+  position: relative;
+  margin-bottom: 33px;
+  font-weight: 400;
   font-size: 18px;
   color: #fff;
-  margin-bottom: 33px;
+  
 }
 
-.preview__btn {
-  background-color: #f5170e;
+.view-btn {
+  border: 1px solid #f5170e;
+  box-sizing: border-box;
   border-radius: 35px;
-  width: 168px;
-  height: 55px;
-  color: #fff;
+  padding: 18px 40px;
+  background-color: #f5170e;
+  font-weight: bold;
   font-size: 14px;
-  text-decoration: none;
-  outline: none;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #fff;
   cursor: pointer;
 }
 
-/*Flame*/
-
-.flame {
-  width: 273px;
-  height: 49px;
-  margin-bottom: ;
-}
-
-.flame__fire {
-  display: inline-block;
-  position: relative;
-  top: -126px;
-  left: 508px;
-  width: 21px;
-  height: 28px;
-}
-
-.lettering {
-  position: relative;
-  top: -44px;
-  left: 223px;
-  margin-bottom: 51px;
-  font-size: 36px;
-  color: black;
-}
 
 /*Tours*/
+/*Блок с горящими турами*/
 
-.tours {  
-  position: relative;
-  
+.fiery-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 80px;
+  color: #fff;  
+  margin-left: 223px;
 }
 
 .block {
   display: inline-block;
+  vertical-align: top;
 }
 
-.first-item {
+.item {
   position: relative;
-  top: -25px;
+  margin-right: 23px;
+  top: -26px;
   left: 219px;
   width: 362px;
-  height: 305px;
-  margin-bottom: 227px;
+  height: auto;
+  margin-bottom: 127px;
   background-color: #fff;
 }
 
-.second-item{
-  position: relative;
-  top: -24px;
-  left: 216px;
-  width: 362px;
-  height: 305px;
-  padding: 27px;
-  margin-bottom: 227px;
-  background-color: #fff;
-}
-
-.three-item {
-  position: relative;
-  top: -18px;
-  left: 212px;
-  width: 362px;
-  height: 305px;
-  margin-bottom: 227px;
-  background-color: #fff;
-}
-
-.tours__ico {
-  width: 26px;
-  height: 26px;
-}
-
-.tours__icon {
-  width: 36px;
-  height: 26px;
-}
-
-.tours__pic {
-  margin: 0 auto;
+.tour-img {
   width: 362px;
   height: 144px;
 }
 
-.tours__food {
-  font-size: 16px;
+
+.flame-title {
+  margin-left: 22px;
+  margin-bottom: 22px;
+  font-size: 24px;
+  font-weight: 700;
 }
 
-.tours__text {
-  font-size: 14px;
+.calendar-title {
+  font-size: 16px;
+  font-weight: 400;
 }
+
+.food-title {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.offers-pic {
+  margin-bottom: 33px;
+ 
+}
+
+.info {
+  display: inline-block;
+  margin-bottom: 23px;
+}
+
+.info__data {
+  display: inline-block;
+  margin-left: 28px;
+}
+
+.calendar-img {
+  margin-right: 10px;
+  width: auto;
+}
+
+.food-img {
+  width: 36px;
+  height: 26px;
+}
+
+.data-title {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: -7px;
+}
+
+.text-offer {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #303030;
+  padding-left: 22px;
+}
+
+.btn {
+  border: 1px solid #f5170e;
+  box-sizing: border-box;
+  border-radius: 35px;
+  padding: 18px 30px;
+  margin: 24px 0 26px 24px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #f5170e;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f5170e;
+  color: #fff;
+}
+  
+
+/*Promotion*/
+/*Новости Акции*/
+.title-hero {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  margin-left: 221px;
+}
+
+.stock {
+  display: inline-block;
+  vertical-align: top;
+  width: 557px;
+  position: relative;
+   
+}
+
+.promotion-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px 30px;
+  min-height: 135px;
+}
+
+.promotions__img {
+  display: inline-block;
+  width: 557px;
+  height: 334px;
+}
+
+.promotions__time {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.promotions__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.promotions__sub {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+/*Paginator*/
+
+.paginations {
+  text-align: center;
+}
+
+.pagination__display, .pagination__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
 
 /*Footer*/
 
 .wrap {
-  background-color: #001821;
-  height: 20%;
+ height: 20%;
 }
 .footer {
   padding: 25px 0;
