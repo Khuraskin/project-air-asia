@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper wrapper_main">
         <header class="header">
             <div class="container">
                 <div class="header__content">
@@ -49,122 +49,136 @@
         </header>
 
         <main class="main-page">
-            <section class="preview">
-                <h1 class="preview__title">Авторские туры по Азии</h1>
-                <p class="section">Открой для себя Азию</p>
-                <button class="preview__btn">подробнее</button>
-            </section>
-
-            <section class="flame">
-                <div class="flame-fire">
-                    <div class="fire-title">
-                        <h2 class="lettering">Горящие туры</h2>
+            <div class="container">
+                <div class="basic">
+                    <div class="Prev">
+                        <h1 class="view">Авторские туры по Азии</h1>
                     </div>
-                    <img class="flame__fire pic" src="./img/icon/flame.png" alt="flame_img" />
+                    <div class="sub">
+                        <p class="open-title">Открой для себя Азию</p>
+                    </div>
+                    <button class="view-btn">подробнее</button>
                 </div>
-            </section>
+            </div>
+            <selection class="flame-tours">
+                <div class="conteiner">
+                    <div class="open">
+                        <h4 class="open title fiery-title">Горящие туры</h4>
+                    </div>
+                    <div class="block item">
+                        <div class="offers-pic">
+                            <img class="tour-img" src="./img/tours fire/river.png" alt="river_png" />
+                        </div>
+                        <h3 class="flame-title">Тайланд</h3>
+                        <div class="info">
+                            <div class="info__data">
+                                <img class="calendar-img" src="./img/icon/calendar.png" alt="calendr_png" />
+                                <span class="data-title">7-12 Ночей</span>
+                            </div>
+                            <div class="info__data">
+                                <img class="food-img" src="./img/icon/meal.png" alt="meal_png" />
+                                <span class="data-title">Завтраки</span>
+                            </div>
+                        </div>
+                        <p class="text-offer">
+                            Равным образом постоянное обеспечение нашей деятельности
+                            позволяет оценить значение систем массового участия.
+                        </p>
+                        <button type="button" class="btn">Смотреть</button>
+                    </div>
+                    <div class="block item">
+                        <div class="offers-pic">
+                            <img class="tour-img" src="./img/tours fire/pool.png" alt="pool_png" />
+                        </div>
+                        <h3 class="flame-title">Бали</h3>
+                        <div class="info">
+                            <div class="info__data">
+                                <img class="calendar-img" src="./img/icon/calendar.png" alt="calendr_png" />
+                                <span class="data-title">7-12 Ночей</span>
+                            </div>
+                            <div class="info__data">
+                                <img class="food-img" src="./img/icon/meal.png" alt="meal_png" />
+                                <span class="data-title">Завтраки</span>
+                            </div>
+                        </div>
 
-            <section class="tours">                
-                    <div class="block first-item">
-                        <div class="tours__img-wrap">
-                            <img class="tours__pic" src="./img/tours fire/river.png" alt="river_img" />
-                        </div>
-                        <h3 class="tour title">Тайланд</h3>
-                        <div class="tours__services">
-                            <p class="tours__menu">7-12 ночей</p>
-                            <img class="tours__ico" src="./img/icon/calendar.png" alt="calendar_img" />
-                            <p class="tours__food">Завтраки</p>
-                            <img class="tours__icon" src="./img/icon/meal.png" alt="meal_img" />
-                        </div>
-                        <p class="tours__text">
+                        <p class="text-offer">
                             Равным образом постоянное обеспечение нашей деятельности
                             позволяет оценить значение систем массового участия.
                         </p>
-                        <button class="tours__btn">смотреть</button>
+                        <button type="button" class="btn">Смотреть</button>
                     </div>
-                    <div class="block second-item">
-                        <div class="tours__img-wrap">
-                            <img class="tours__pic" src="./img/tours fire/pool.png" alt="pool_img" />
+                    <div class="block item">
+                        <div class="offers-pic">
+                            <img class="tour-img" src="./img/tours fire/ocean.png" alt="ocean_png" />
                         </div>
-                        <h3 class="tour title">Бали</h3>
-                        <div class="tours__services">
-                            <p class="tours__menu">7-12 ночей</p>
-                            <img class="tours__ico" src="./img/icon/calendar.png" alt="calendar_img" />
-                            <p class="tours__food">Завтраки</p>
-                            <img class="tours__icon" src="./img/icon/meal.png" alt="meal_img" />
+                        <h3 class="flame-title">Индонезия</h3>
+                        <div class="info">
+                            <div class="info__data">
+                                <img class="calendar-img" src="./img/icon/calendar.png" alt="calendr_png" />
+                                <span class="data-title">7-12 Ночей</span>
+                            </div>
+                            <div class="info__data">
+                                <img class="food-img" src="./img/icon/meal.png" alt="meal_png" />
+                                <span class="data-title">Завтраки</span>
+                            </div>
                         </div>
-                        <p class="tours__text">
-                            Равным образом постоянное обеспечение нашей деятельности
-                            позволяет оценить значение систем массового участия.
-                        </p>
-                        <button class="tours__btn">смотреть</button>
-                    </div>
-                    <div class="block three-item">
-                        <div class="tours__img-wrap">
-                            <img class="tours__pic" src="./img/tours fire/ocean.png" alt="ocean_img" />
-                        </div>
-                        <h3 class="tour title">Индонезия</h3>
-                        <div class="tours__services">
-                            <p class="tours__menu">7-12 ночей</p>
-                            <img class="tours__ico" src="./img/icon/calendar.png" alt="calendar_img" />
-                            <p class="tours__food">Завтраки</p>
-                            <img class="tours__icon" src="./img/icon/meal.png" alt="meal_img" />
-                        </div>
-                        <p class="tours__sub title">
-                            Равным образом постоянное обеспечение нашей деятельности
-                            позволяет оценить значение систем массового участия.
-                        </p>
-                        <button class="tour btn">смотреть</button>
-                    </div>
-                
-            </section>
 
-            <section class="promotions">
-                <div class="promo">
-                    <h2 class="promotions__title">Новости и акции</h2>
-                    <div class="promotions__wrap">
-                        <img class="promotions__img" src="#" alt="plaim_img" />
-                        <time class="promotions__time">Декабрь 2019</time>
-                        <h3 class="promotions__title">Дешeвые путевки на Новый год!</h3>
-                        <p class="promotions__sub title">Проведи новый год в Тайланде</p>
-                    </div>
-                    <div class="promotions__wrap">
-                        <img class="promotions__img" src="#" alt="surfer_img" />
-                        <time class="promotions__time">Декабрь 2019</time>
-                        <h3 class="promotions__title">Акция для серфенгистов!</h3>
-                        <p class="promotions__sub title">
-                            В сезон больших волн скидки на путевку в Тайланд на остров
-                            серфингистов. Удачного пути.
+                        <p class="text-offer">
+                            Равным образом постоянное обеспечение нашей деятельности
+                            позволяет оценить значение систем массового участия.
                         </p>
+                        <button type="button" class="btn">Смотреть</button>
                     </div>
                 </div>
-                <div class="paginations listen">
-                    <div class="pagination">
-                        <div class="pagination__title">
-                            Страница <span class="pagination__title-current">1</span>из<span
-                                class="pagination__title-all">7</span>
-                        </div>
-                        <ul class="pagination__menu">
-                            <li class="pagination-item">
-                                <a class="pagination__list" href="#">1</a>
+            </selection>
+
+            <section class="promotion">
+                <div class="container">
+                    <h2 class="title-hero">Новости и акции</h2>
+                    <ul class="wrap sales">
+                        <li class="stock">
+                            <img class="promotions__img" src="./img/Promo/plain.jpg" alt="plaim_img" />
+                            <div class="promotion-content">
+                                <time class="promotions__time">Декабрь 2019</time>
+                                <div class="promotions__title">Дешeвые путевки на Новый год!</div>
+                                <div class="promotions__sub title">Проведи новый год в Тайланде</div>
+                            </div>
+                        </li>
+                        <li class="stock wrap">
+                            <img class="promotions__img" src="./img/Promo/Surfer.jpg" alt="plaim_img" />
+                            <div class="promotion-content">
+                                <time class="promotions__time">Декабрь 2019</time>
+                                <div class="promotions__title">Акция для серфенгистов!</div>
+                                <div class="promotions__sub title">В сезон больших волн скидка на путевку в Тайланд на
+                                    островсерфенгистов. Удачного пути!</div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="paginations">
+                        <div class="pagination__display">Страница 1 из 7</div>
+                        <ul class="pagination__list">
+                            <li class="pagination__item">
+                                <a class="pagination__link pafinator__list--active" href="#">1</a>
                             </li>
-                            <li class="pagination-item">
-                                <a class="pagination__list" href="#">2</a>
+                            <li class="pagination__item">
+                                <a class="pagination__link" href="#">2</a>
                             </li>
-                            <li class="pagination-item">
-                                <a class="pagination__list" href="#">3</a>
+                            <li class="pagination__item">
+                                <a class="pagination__link" href="#">3</a>
                             </li>
-                            <li class="pagination-item">
-                                <a class="pagination__list" href="#">4</a>
+                            <li class="pagination__item">
+                                <a class="pagination__link" href="#">4</a>
                             </li>
-                            <li class="pagination-item">
-                                <a class="pagination__list" href="#">5</a>
+                            <li class="pagination__item">
+                                <a class="pagination__link" href="#">5</a>
                             </li>
-                            <li class="pagination-item">
-                                <a class="pagination__list" href="#">6</a>
+                            <li class="pagination__item">
+                                <a class="pagination__link" href="#">6</a>
                             </li>
-                            <li class="pagination-item">
-                                <a class="pagination__list" href="#">7</a>
+                            <li class="pagination__item">
+                                <a class="pagination__link" href="#">7</a>
                             </li>
                         </ul>
                     </div>
@@ -187,7 +201,7 @@
                 </div>
             </section>
         </main>
-        <div class="wrap">
+        <div class="#">
             <footer class="footer">
                 <div class="container">
                     <div class="content-footer">
