@@ -261,7 +261,7 @@ img {
    
 }
 
-.promotion-content {
+.promotion content {
   position: absolute;
   left: 0;
   right: 0;
@@ -270,27 +270,27 @@ img {
   min-height: 135px;
 }
 
-.promotions__img {
+.promotions img {
   display: inline-block;
   width: 557px;
   height: 334px;
 }
 
-.promotions__time {
+.promotions-time {
   font-size: 14px;
   font-weight: 400;
   color: #fff;
   margin-bottom: 12px;
 }
 
-.promotions__title {
+.promotions-title {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
   margin-bottom: 4px;
 }
 
-.promotions__sub {
+.promotions-sub {
   font-size: 16px;
   font-weight: 400;
   color: #fff;
