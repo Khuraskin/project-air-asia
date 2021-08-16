@@ -5,11 +5,9 @@ body {
 
 .wrapper{
   background-color: #001821;
-}
-
-.page-toure {
-  background: url("../img/Fon/heder_fon.jpg") center top no-repeat, background: url("../img/Fon/footer_fon") center bottom no-repeat;
-
+  background-color: #001821;
+  background: url("../img/Fon/heder_fon.jpg") center top no-repeat;
+  background: url("../img/Fon/footer_fon.jpg") center bottom no-repeat;
 }
 
 /*Header*/
