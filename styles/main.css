@@ -7,9 +7,9 @@ body {
   background-color: #001821;
 }
 
-.main-page-wrapper {
+.page-toure {
   background: url("../img/Fon/heder_fon.jpg") center top no-repeat, background: url("../img/Fon/footer_fon") center bottom no-repeat;
-   
+
 }
 
 /*Header*/
