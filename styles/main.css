@@ -366,6 +366,31 @@ display: inline-block;
   width: 785px;
   height: 455px;
 }
+.we-title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.us-sub {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.about-btn {
+  border: 1px solid #f5170e;
+  box-sizing: border-box;
+  border-radius: 35px;
+  padding: 18px 40px;
+  background-color: #f5170e;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
 
 
 /*Footer*/
@@ -379,4 +404,15 @@ display: inline-block;
 
 .footer-logo {
   margin-right: 79px;
+}
+
+.social {
+  display: inline-block;
+  position: relative;
+  margin-left: 15px;
+}
+
+.social__pic {
+  width: 36px;
+  height: 36px;
 }
