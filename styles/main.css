@@ -2,20 +2,23 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-
-.wrapper{
+.wrapper {
+  background: url("../img/Fon/heder_fon.jpg") center top no-repeat,
+    url("../img/Fon/footer_fon.jpg") center bottom no-repeat;
   background-color: #001821;
-  background: url("../img/Fon/heder_fon.jpg") center top no-repeat;
-}
+ }
 
 /*Header*/
 
 .header {
   padding: 25px 0;
-}
+  margin: 0 0 108px 0;
+ }
+
 .container {
   width: 1140px;
   margin: 0 auto;
+ 
 }
 
 .header__logo {
@@ -33,12 +36,18 @@ body {
   margin: 0;
 }
 
-ul,li {
+ul,
+li {
   list-style-type: none;
 }
 
 img {
   width: 100%;
+}
+
+h1 h2 h3 h4 h5 {
+  margin: 0;
+  font-weight: normal;
 }
 
 p {
@@ -50,7 +59,7 @@ p {
   position: relative;
   top: -7px;
   left: 3px;
- }
+}
 
 .menu__item {
   display: inline-block;
@@ -61,11 +70,10 @@ p {
   font-size: 14px;
 }
 
-
 .menu__link {
   color: #fff;
   text-decoration: none;
- }
+}
 
 .contacts {
   font-style: normal;
@@ -92,33 +100,29 @@ p {
 
 /*Main-page*/
 /*Блок авторкие туры по Азии*/
-.basic {
+.hero  {
   display: inline-block;
-  margin: 188px 0px 0 -29px;;
   width: 511px;
-  height: 333px;
-  position: relative;
-  top: -98px;
-  left: 26px;
-  margin-bottom: 165px;
+  margin-bottom: 246px;  
 }
 
-.view {
+.hero__title {
   font-size: 72px;
   font-weight: 700;
+  line-height: 95px;
   color: #fff;
   position: relative;
-  margin-top: 27px;
- 
+  margin-top: 0;
+  max-width: 600px;
+  margin-bottom: 27px;
 }
 
-.open-title {
+.open__title {
   position: relative;
-  margin-bottom: 33px;
+  margin-bottom: 34px;
   font-weight: 400;
   font-size: 18px;
   color: #fff;
-  
 }
 
 .view-btn {
@@ -135,109 +139,105 @@ p {
   cursor: pointer;
 }
 
-
 /*Tours*/
 /*Блок с горящими турами*/
 
-.nblock::after {
+.tour__burning_subtitle::after {
   content: url("../img/icon/flame.png");
   margin-left: 12px;
 }
 
-.fiery-title {
+.tour__burning {
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 80px;
-  color: #fff;  
-  margin-left: 223px;
+  margin-bottom: 53px;
+  color: #fff;
 }
 
-.block {
+.offers {
   display: inline-block;
   vertical-align: top;
-}
-
-.item {
-  position: relative;
-  margin-right: 23px;
-  top: -26px;
-  left: 219px;
+  margin-right: 22px;
   width: 362px;
-  height: auto;
-  margin-bottom: 127px;
+  height: 452px;
   background-color: #fff;
+  margin-bottom: 127px;
 }
 
-.tour-img {
-  width: 362px;
-  height: 144px;
+.offers:last-child {
+  margin-right: 0%;
 }
 
-
-.flame-title {
-  margin-left: 22px;
-  margin-bottom: 22px;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.calendar-title {
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.food-title {
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.offers-pic {
-  margin-bottom: 33px;
+.offers__services{
  
 }
 
-.info {
+.offers__title {
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 22px;
+  color: #000000;
+}
+
+
+.offers__info {
+  margin-bottom: 23.5px;
+}
+
+
+.offers__data {
   display: inline-block;
-  margin-bottom: 23px;
+  position: relative;
+  margin: 28px 0 0 30px;
+  
 }
 
-.info__data {
-  display: inline-block;
-  margin-left: 28px;
+
+.offers__img {
+  width: 362px;
+    
 }
 
-.calendar-img {
-  margin-right: 10px;
-  width: auto;
+.calendar__img {
+  width: 26px;
+  height: 26px;
 }
 
-.food-img {
+.food__img {
   width: 36px;
   height: 26px;
 }
 
-.data-title {
-  color: #666666;
+.data__title {
   font-size: 16px;
   font-weight: 400;
+  color: #666666;
+  text-indent: 25px;
   position: relative;
   top: -7px;
+  right: -7px;
 }
 
-.text-offer {
+.offers__pic {
+  position: relative;
+  margin-bottom: 33px;
+}
+
+.offers__text{
   font-size: 14px;
-  line-height: 21px;
   font-weight: 400;
-  color: #303030;
+  width: 324px;
   padding-left: 22px;
+  color: #303030;
+  margin-bottom: 35px;
 }
 
-.btn {
+.offers__btn {
   border: 1px solid #f5170e;
   box-sizing: border-box;
+  margin-left: 24px ;
   border-radius: 35px;
-  padding: 18px 30px;
-  margin: 24px 0 26px 24px;
+  padding: 18px 29px;
   background-color: #fff;
   font-weight: bold;
   font-size: 14px;
@@ -247,32 +247,46 @@ p {
   cursor: pointer;
 }
 
-.btn:hover {
+.offers__btn:hover {
   background-color: #f5170e;
   color: #fff;
 }
-  
+
 
 /*Promotion*/
 /*Новости Акции*/
 
-.title-hero {
+.action {
+  margin-bottom: 144px;
+}
+.action__news {
   font-size: 36px;
   font-weight: 700;
   color: #fff;
-  position: relative;
-  margin-left: 221px;
+  margin-bottom: 60px;
 }
 
-.stock {
+
+.action__stock {
   display: inline-block;
-  vertical-align: top;
-  width: 557px;
   position: relative;
-   
+  vertical-align: top;
+  width: 556px;
+  margin-right: 22px;
+  margin-bottom: 50px;
 }
 
-.promotion-content {
+.action__stock:last-child {
+  margin-right: 0px;
+}
+
+.action__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.action__content {
   position: absolute;
   left: 0;
   right: 0;
@@ -281,13 +295,7 @@ p {
   min-height: 135px;
 }
 
-.promotions img {
-  display: inline-block;
-  width: 557px;
-  height: 334px;
-}
-
-.promotions-time {
+.action__time {
   position: relative;
   font-size: 14px;
   font-weight: 400;
@@ -295,14 +303,14 @@ p {
   margin-bottom: 12px;
 }
 
-.promotions-title {
+.action__title {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
   margin-bottom: 4px;
 }
 
-.promotions-sub {
+.action__subtitle {
   font-size: 16px;
   font-weight: 400;
   color: #fff;
@@ -310,11 +318,13 @@ p {
 
 /*Paginator*/
 
-.paginations {
+.pagination {
   text-align: center;
+  margin-bottom: 151px;
 }
 
-.pagination__display, .pagination__list {
+.pagination__display,
+.pagination__list {
   display: inline-block;
   vertical-align: middle;
 }
@@ -328,17 +338,16 @@ p {
 .pagination__item {
   display: inline-block;
   vertical-align: middle;
-  
 }
 
-.pafinator__list--active .pagination__link {
+.pagination__link:hover {
   background-color: #f5170e;
 }
 
 .pagination__link {
   font-size: 16px;
   font-weight: 700;
-  color: #fff;  
+  color: #fff;
   text-decoration: none;
   display: inline-block;
   width: 32px;
@@ -350,32 +359,51 @@ p {
 
 /*About US*/
 
-.about .us{
-display: inline-block;  
+
+.foreword {
+  
 }
 
-.about__pic-img {
+.foreword__pic {
+  display: inline-block;
+  position: relative;
+  
+}
+
+.foreword__pic:last-child {
+  margin-right: 0px;
+}
+
+
+
+
+/*margin-left: 355px;
+  margin-top: -411px; */
+
+.foreword__first-img {
   width: 490px;
-  height: 505px;
 }
 
-.us-img {
-  width: 785px;
-  height: 455px;
+.foreword__second-img {
+  position: relative;
+  margin-left: -140px;
+  margin-bottom: -47px;
+  width: 784px;
 }
-.we-title {
+
+.foreword__title {
   color: #fff;
   font-size: 36px;
   font-weight: 700;
 }
 
-.us-sub {
+.foreword__subtitle {
   font-size: 16px;
   font-weight: 400;
   color: #fff;
 }
 
-.about-btn {
+.about__btn {
   border: 1px solid #f5170e;
   box-sizing: border-box;
   border-radius: 35px;
@@ -389,18 +417,93 @@ display: inline-block;
   cursor: pointer;
 }
 
-
 /*Footer*/
 
-.wrap {
- height: 20%;
+.basement {
+  padding: 25px 0;
+  margin: 0 0 108px 0;
+  
 }
+
+.footer__logo {
+  margin-right: 79px;  
+}
+
+
+
+.footer__menu {
+  display: inline-block;
+  position: relative;
+  top: -7px;
+  left: 3px;
+  
+}
+
+.footer__item {
+  display: inline-block;
+  position: relative;
+  left: -11px;
+  top: -2px;
+  margin-right: 54px;
+  font-size: 14px;
+}
+
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social__link {
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  
+}
+.social__link:last-child {
+  margin-right: 0;
+}
+
+.social__media {
+  
+}
+
+.contacts__free {
+  width: max-content;
+  margin-left: auto;
+  color:#9A9A9A;
+  font-size: 11px;
+  font-weight: 400;
+  position: relative;
+  top: -2px;
+  left: -2px;
+  text-decoration: none;
+}
+
+.social {
+  display: inline-block;
+  position: relative;
+  top: 53px;
+  right: 300px;
+}
+
+.social__pic {
+  width: 36px;
+  height: 36px;
+}
+
+/*
 .footer {
   padding: 25px 0;
+  display: inline-block;
 }
+
 
 .footer-logo {
   margin-right: 79px;
+}
+
+.footer_list {
+  display: inline-block;
 }
 
 .social {
@@ -408,8 +511,27 @@ display: inline-block;
   position: relative;
   margin-left: 15px;
 }
+*/
 
-.social__pic {
-  width: 36px;
-  height: 36px;
+
+/*
+
+.tours__item:last-child {
+  margin-right: 0;
+}
+
+.flame-tours {
+  margin-bottom: 127px;
+}
+
+.offer__wrap-content {
+  padding: 30px 22px;
+}
+
+.stock:last-child {
+  margin-right: 0;
+}
+
+.page-toure {
+  padding: 108px 0 251px;
 }
