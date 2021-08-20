@@ -1,0 +1,26 @@
+/*Hero*/
+
+.hero {
+    display: inline-block;
+    width: 511px;
+    margin-bottom: 246px;
+  }
+  
+  .hero__title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 95px;
+    color: #fff;
+    position: relative;
+    margin-top: 0;
+    max-width: 600px;
+    margin-bottom: 27px;
+  }
+  
+  .open__title {
+    position: relative;
+    margin-bottom: 34px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+  }

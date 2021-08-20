@@ -1,0 +1,97 @@
+/*Tour*/
+
+.offer {
+  margin-bottom: 127px;
+}
+
+.promotion {
+  margin-bottom: 144px;
+}
+
+.tour__burning_subtitle::after {
+  content: url("../img/icon/flame.png");
+  margin-left: 12px;
+}
+
+.tour__burning {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 53px;
+  color: #fff;
+}
+
+.offers__services {
+  padding: 30px 22px;
+}
+
+.offers {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 22px;
+  width: 362px;
+  background-color: #fff;
+}
+
+.offers:last-child {
+  margin-right: 0;
+}
+
+.offers__data:last-child {
+  margin-right: 0;
+}
+
+
+.offers__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.offers__info {
+  margin-bottom: 23.5px;
+}
+
+.offers__data {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+}
+
+
+.offers__picture {
+  width: 362px;
+}
+
+.calendar__img {
+  width: 26px;
+  height: 26px;
+}
+
+.offers__img {
+  width: 36px;
+  height: 26px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.data__title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  text-indent: 25px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.offers__pic {
+  position: relative;
+}
+
+.offers__text {
+  font-size: 14px;
+  font-weight: 400;
+  width: 324px;
+  color: #303030;
+  margin-bottom: 35px;
+}
