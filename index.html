@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/normalize.css"/>
+    <link rel="stylesheet" href="./styles/link.css" />
 </head>
-
 <body>
-    <div class="wrapper main-page-wrapper">
+    <div class="wrapper main__page-wrapper">
         <header class="header">
             <div class="container">
                 <div class="header__content">
@@ -56,30 +56,28 @@
                     <div class="open">
                         <p class="open__title">Открой для себя Азию</p>
                     </div>
-                    <button class="view__btn btn__general">подробнее</button>
+                    <button class="view__btn btn">подробнее</button>
                 </div>
             </div>
             <section class="offer">
                 <div class="container">
                     <div class="tour">
-                        <div class="tour__burning">
-                            <h4 class="tour__burning tour__burning_subtitle">Горящие туры</h4>
-                        </div>
+                        <h2 class="tour__burning tour__burning_subtitle">Горящие туры</h2>                        
                         <div class="offers">
                             <div class="offers__pic">
-                                <img class="offers__img" src="./img/tours fire/river.png" alt="river_png" />
+                                <img class="offers__picture" src="./img/tours fire/river.png" alt="river_png" />
                             </div>
                             <div class="offers__services">
                                 <h3 class="offers__title">Тайланд</h3>
                                 <div class="offers__info">
                                     <div class="offers__data">
-                                        <img class="offers__img calendar__img" src="./img/icon/calendar.png"
+                                        <img class="offers__img" src="./img/icon/calendar.png"
                                             alt="calendr_png" />
-                                        <span class="offers__img data__title">7-12 Ночей</span>
+                                        <span class="data__title">7-12 Ночей</span>
                                     </div>
                                     <div class="offers__data">
-                                        <img class="offers__img food__img" src="./img/icon/meal.png" alt="meal_png" />
-                                        <span class="offers__img data__title">Завтраки</span>
+                                        <img class="offers__img" src="./img/icon/meal.png" alt="meal_png" />
+                                        <span class="data__title">Завтраки</span>
                                     </div>
                                 </div>
                                 <div class="offers__text">
@@ -87,24 +85,24 @@
                                         позволяет оценить значение систем массового участия.
                                     </p>
                                 </div>
-                                <button type="button" class="offers__btn">Смотреть</button>
+                                <button type="button" class="btn offers__btn">Смотреть</button>
                             </div>
                         </div>
                         <div class="offers">
                             <div class="offers__pic">
-                                <img class="offers__img" src="./img/tours fire/pool.png" alt="pool_png" />
+                                <img class="offers__picture" src="./img/tours fire/pool.png" alt="pool_png" />
                             </div>
                             <div class="offers__services">
                                 <h3 class="offers__title">Бали</h3>
                                 <div class="offers__info">
                                     <div class="offers__data">
-                                        <img class="offers__img calendar__img" src="./img/icon/calendar.png"
+                                        <img class="offers__img" src="./img/icon/calendar.png"
                                             alt="calendr_png" />
-                                        <span class="offers__img data__title">7-12 Ночей</span>
+                                        <span class="data__title">7-12 Ночей</span>
                                     </div>
                                     <div class="offers__data">
-                                        <img class="offers__img food__img" src="./img/icon/meal.png" alt="meal_png" />
-                                        <span class="offers__img data__title">Завтраки</span>
+                                        <img class="offers__img" src="./img/icon/meal.png" alt="meal_png" />
+                                        <span class="data__title">Завтраки</span>
                                     </div>
                                 </div>
                                 <div class="offers__text">
@@ -112,24 +110,24 @@
                                         позволяет оценить значение систем массового участия.
                                     </p>
                                 </div>
-                                <button type="button" class="offers__btn">Смотреть</button>
+                                <button type="button" class="btn offers__btn">Смотреть</button>
                             </div>
                         </div>
                         <div class="offers">
                             <div class="offers__pic">
-                                <img class="offers__img" src="./img/tours fire/ocean.png" alt="ocean_png" />
+                                <img class="offers__picture" src="./img/tours fire/ocean.png" alt="ocean_png" />
                             </div>
                             <div class="offers__services">
                                 <h3 class="offers__title">Индонезия</h3>
                                 <div class="offers__info">
                                     <div class="offers__data">
-                                        <img class="offers__img calendar__img" src="./img/icon/calendar.png"
+                                        <img class="offers__img" src="./img/icon/calendar.png"
                                             alt="calendr_png" />
-                                        <span class="offers__img data__title">7-12 Ночей</span>
+                                        <span class="data__title">7-12 Ночей</span>
                                     </div>
                                     <div class="offers__data">
-                                        <img class="offers__img food__img" src="./img/icon/meal.png" alt="meal_png" />
-                                        <span class="offers__img data__title">Завтраки</span>
+                                        <img class="offers__img" src="./img/icon/meal.png" alt="meal_png" />
+                                        <span class="data__title">Завтраки</span>
                                     </div>
                                 </div>
                                 <div class="offers__text">
@@ -137,16 +135,15 @@
                                         позволяет оценить значение систем массового участия.
                                     </p>
                                 </div>
-                                <button type="button" class="offers__btn">Смотреть</button>
+                                <button type="button" class="btn offers__btn">Смотреть</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="promotion">
-                <div class="container">
+            <section class="promotion container">
                     <div class="action">
-                        <h2 class="action__news">Новости и акции</h2>
+                        <h2 class="action__news title">Новости и акции</h2>
                         <ul class="action__sales">
                             <li class="action__stock">
                                 <img class="action__img" src="./img/Promo/plain.jpg" alt="plaim_img" />
@@ -192,20 +189,20 @@
                                 </li>
                             </ul>
                         </div>
+                    </div>
+                        
             </section>
             <section class="promo">
-                <div class="container">
+                <div class="container promo__container">
                     <div class="foreword">
                         <div class="foreword__pic">
                             <h2 class="foreword__title">О нас</h2>
-                            <div class="foreword__subtitle-text">
-                                <p>
+                                <p class="foreword__subtitle-text">
                                     Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
                                     абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
                                     отточить навык публичных выступлений в домашних условиях.
-                                </p>
-                            </div>
-                            <button class="view__btn btn__general-btn">Подробнее</button>
+                                </p>                            
+                            <button class="btn">Подробнее</button>
                         </div>
                     </div>
                 </div>
