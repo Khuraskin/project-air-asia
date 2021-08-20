@@ -5,7 +5,7 @@
  } 
 
 .container {
-    width: 1920px;
+    width: 1168px;
     margin: 0 auto;
     
 }
@@ -16,6 +16,7 @@
 
 .header_content {
     background: url("../img/Header_footer/headline.jpg");
+    
 }
 
 
@@ -63,17 +64,17 @@
 
 /*offers*/
 
-.offers__pic {
+.offer__pic {
     width: 460px;
     height: 333px;
 }
 
-.offers__title {
+.offer__title {
     font-size: 36px;
     font-weight: 700;
 }
 
-.offers__subtitle {
+.offer__subtitle {
     font-size: 16px;
     font-weight: 400;
     color: #303030;
@@ -102,3 +103,6 @@
 
 /*footer*/
 
+.footer {
+    background-color: #000;
+}
