@@ -1,0 +1,122 @@
+/*Action*/
+
+/*
+.action {
+    margin-bottom: 144px;
+  }
+  */
+
+  .action__sales {
+   margin-bottom: 50px;
+   display: flex;
+   justify-content: space-between;
+
+  }
+
+  .action__news {
+    color: #fff;
+    margin-bottom: 60px;
+  }
+  
+  .action__stock {
+    display: flex;
+    position: relative;
+    width: 556px;
+    height: 394px;
+    min-height: 84px;
+      
+  }
+  
+  .action__stock:last-child {
+    margin-right: 0;
+  }
+  
+  .action__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .action__content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 25px 30px;
+    min-height: 135px;
+    box-sizing: border-box;
+  }
+  
+  .action__time {
+    
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  
+  .action__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+  }
+  
+  .action__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+  }
+  
+  /*Paginator*/
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .pagination__display {
+    margin-right: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+     
+   
+  .pagination__list {
+    display: flex;
+    align-items: center;
+  }
+    
+  .pagination__link:hover {
+    background-color: #f5170e;
+  }
+  
+  .pagination__link {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    position: relative;
+    line-height: 32px;
+  }
+
+  /*services*/
+
+  .pagination__display--list {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400px;
+  }
+
+ .pagination__item--color {
+   color: #000;
+ }

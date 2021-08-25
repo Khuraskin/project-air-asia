@@ -1,0 +1,80 @@
+/*Header*/
+
+.header {
+  padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 66px 0;
+  }
+  
+  .header__column {
+    display: flex;
+    margin-top: 31px;
+  }
+
+  .header__content {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__contacts {
+    display: flex;
+  }
+
+    
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .header__logo {
+    display: flex;
+    margin-right: 100px;
+    
+ }
+
+  
+  .logo {
+    
+    width: 85px;
+    height: 36px;
+  }
+  
+  .menu__list {
+   display: flex;
+   justify-content: space-between;
+   
+  }
+  
+  .menu__item {    
+    margin-right: 54px;
+    font-size: 14px;
+  }
+  
+  .menu__link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+  }
+  
+  .contacts__tel {
+    font-size: 26px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .contacts__scheedule {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 13px;
+    position: relative;
+    text-decoration: underline;
+  }
