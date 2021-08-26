@@ -10,8 +10,8 @@
 
 
 .tour__burning--subtitle::after {
-  content: url("../img/icon/flame.png");
-  margin-left: 1258px;
+  content: url("../../img/icon/flame.png");
+  margin-left: 8px;
   
 }
 
