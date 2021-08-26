@@ -78,3 +78,23 @@
     position: relative;
     text-decoration: underline;
   }
+
+  .contacts__title {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    transform: 0.5s all ease-in-out;
+    height: 93px;
+    top: 81px;
+    right: 300px;
+    background: url("../../img/Fon/rectangle.png") center center / cover no-repeat;
+  }
+
+  .contacts:hover >.contacts__title {
+    opacity: 1;
+
+  }
+
+  .contacts__title--content {
+    padding: 19px;
+  }
