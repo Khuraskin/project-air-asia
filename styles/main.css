@@ -4,17 +4,28 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+body, html {
+  min-height: 100%;
+}
+
 .wrapper {
   background: url("../img/Fon/heder_fon.jpg") center top no-repeat,
     url("../img/Fon/footer_fon.jpg") center bottom no-repeat;
   background-color: #001821;
+  overflow: hidden;
+  min-width: 1400px;
 }
 
 .wrappers {
   background: url("../img/Header_footer/headline.jpg") center top no-repeat;
   width: 1920px;
   height: 412px;
-    
+      
+  }
+
+  .wrappers__header{
+  overflow: hidden;
+  min-width: 1940px;
   }
 
 * {
