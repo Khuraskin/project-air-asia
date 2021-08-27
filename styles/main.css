@@ -4,8 +4,8 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-body, html {
-  min-height: 100%;
+html, body {
+  height: 100%;
 }
 
 .wrapper {
@@ -13,12 +13,14 @@ body, html {
     url("../img/Fon/footer_fon.jpg") center bottom no-repeat;
   background-color: #001821;
   overflow: hidden;
-  min-width: 100%;
+  min-width: 1400px;
+  min-height: 100%;
 }
 
 .wrappers {
   overflow: hidden;
-  min-width: 100%;
+  min-width: 1940px;
+  min-height: 100%;
 }
 
 .wrappers__head {
