@@ -38,10 +38,10 @@
   
   
 
-  .pagination__link--active,
+  .pagination__link--actives,
   .pagination__link:hover {
-    background-color: #f5170e;
-    color: #fff;
+    background-color:#fff;
+    color: #f5170e;
   }
   
 
@@ -55,7 +55,28 @@
     font-weight: 400px;
   }
 
-  .pagination__list--color--dark {
+  .pagination__list--color--dark
+  .pagination__link {
     color: #000;
+  }
+  
+  .pagination__links--active,
+  .pagination__links:hover {
+    background-color: #f5170e;
+    color: #fff;
+  }
+    
+  .pagination__links {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    position: relative;
+    line-height: 32px;
   }
   
