@@ -1,0 +1,13 @@
+@import url("./main.css");
+@import url("./normalize.css");
+@import url("./block/header.css");
+@import url("./block/hero.css");
+@import url("./block/reviews.css");
+@import url("./block/tour.css");
+@import url("./block/action.css");
+@import url("./block/paginator.css");
+@import url("./block/foreword.css");
+@import url("./block/footer.css");
+@import url("./block/social.css");
+@import url("./block/partners.css");
+@import url("./block/services.css");

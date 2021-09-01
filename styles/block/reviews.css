@@ -1,0 +1,132 @@
+/*reviews*/
+
+.impression {
+    margin-bottom: 65px;
+}
+
+.impression__list {
+    display: flex;
+    padding-top: 98px;
+}
+
+.impression__item {
+    margin-right: 27px;
+}
+.impression__item:last-child {
+    margin-right: 0;
+
+}
+
+.impression__card {
+    border-radius: 5px;
+    background: #f4f5f5;
+    width: 557px;
+    height: 542px;
+    margin-bottom: 17px;
+
+}
+
+.impression__card--size {
+    height: 691px;
+}
+
+
+.impression__container {
+  padding: 50px 31px 32px 31px;
+  background-color: #F4F5F5;
+}
+
+.impression__title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 27px;
+}
+
+.impression__pic {
+  width: 142px;
+  height: 142px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.impression__name {
+    margin-left: 22px;
+}
+
+.impression__social--img::after {
+  content: url("../../img/icon/vk-blue\ 1.png");
+  height: 30px;
+}
+
+
+.impression__link {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin: 7px;
+  color: rgba(46, 119, 164, 1);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.impression__place {
+    font-size: 13px;
+    font-weight: 400;
+    color: #303030;
+    background: #b9eae4;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 156px;
+    height: 37px;
+    margin-top: 3px;
+}
+
+.impression__place--dark {
+    color: rgba(48, 48, 48, 1);
+}
+
+.impression__review {
+    font-size: 33px;
+    line-height: 42px;
+    font-weight: 700;
+    color: rgba(26, 27, 30, 1);
+    margin-bottom: 13px;
+}
+
+.impression__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgba(129, 129, 129, 1);
+}
+
+.impression__data {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(26, 27, 30, 1);
+    padding-top: 48px;
+}
+
+
+
+/*Review*/
+
+.review {
+    background: url(../../img/review/Rectangle.jpg) no-repeat;
+    min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.review__subtitle {
+    display: flex;
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    width: 595px;
+}
