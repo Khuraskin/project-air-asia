@@ -89,7 +89,6 @@
   }
 
   .contacts__title {
-    position: absolute;
     cursor: pointer;
     visibility: hidden;
     transition: 0.1s all ease-in-out;
