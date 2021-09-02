@@ -13,6 +13,14 @@ html, body {
   height: 100%;
 }
 
+.wrappers__head {
+  background: url("../img/Header_footer/headline.jpg") center top no-repeat, linear-gradient(90deg, #01131d 50%, #002e3b 50%);
+  margin-bottom: 80px;
+  padding-bottom: 20px;
+      
+  }
+
+
 .wrapper {
   background: url("../img/Fon/heder_fon.jpg") center top no-repeat,
     url("../img/Fon/footer_fon.jpg") center bottom no-repeat;
@@ -24,27 +32,12 @@ html, body {
   flex-direction: column;
 }
 
-/*
-.wrappers__wrap {
-  flex: 1;
-}
-*/
-
-.wrappers__head {
-  background: url("../img/Header_footer/headline.jpg") center top no-repeat, linear-gradient(90deg, #01131d 50%, #002e3b 50%);
-  margin-bottom: 80px;
-  padding-bottom: 20px;
-      
-  }
-
 
 .wrappers {
   min-height: 100%;
   display: flex;
   flex-direction: column;
 }
-
-
 
 
 * {
@@ -91,45 +84,17 @@ p {
   box-sizing: border-box;
   border-radius: 35px;
   padding: 18px 40px;
-  background-color: #f5170e;
-  font-weight: bold;
+  background-color: #FFFFFF;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 1.4;
   text-transform: uppercase;
-  color: #fff;
+  color: #f5170e;
   cursor: pointer;
-  display: flex;
   align-self: end;
 }
 
-
-.offers__btn {
-  border: 1px solid #f5170e;
-  padding: 18px 29px;
-  background-color: #fff;
-  color: #f5170e;
- 
-}
-
-
-.offers__btn:hover {
-  background-color: #f5170e;
-  color: #fff;
-}
-
-/*Service*/
-
-.offer__btn {
-  border: 1px solid #f5170e;
-  width: 167px;
-  border-radius: 35px;
-  padding: 18px 29px;
-  background-color: #fff;
-  color: #f5170e;
- 
-}
-
-.offer__btn:hover {
+.btn:hover {
   background-color: #f5170e;
   color: #fff;
 }
