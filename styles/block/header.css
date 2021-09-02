@@ -91,17 +91,18 @@
   .contacts__title {
     position: absolute;
     cursor: pointer;
-    opacity: 0;
-    transition: 0.5s all ease-in-out;
+    visibility: hidden;
+    transition: 0.1s all ease-in-out;
     height: 93px;
-    top: 81px;
-    right: 300px;
+    top: 67px;
+    right: 307px;
     background: url("../../img/Fon/rectangle.png") center center / cover no-repeat;
   }
 
+  
   .contacts__content:hover >.contacts__title {
-    opacity: 1;
-
+    visibility: visible;
+        
   }
 
   .contacts__title--content {
