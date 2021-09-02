@@ -98,3 +98,13 @@ p {
   background-color: #f5170e;
   color: #fff;
 }
+
+.btn--type--dark {
+    background-color: #8e8e8e;
+}
+
+.btn--type--dark:hover {
+    background-color: #2B2B2B;
+    
+}
+
