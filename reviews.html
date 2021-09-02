@@ -38,7 +38,8 @@
                                         class="menu__link">Услуги</a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="https://khuraskin.github.io/project-air-asia/reviews.html" class="menu__link">Отзывы</a>
+                                    <a href="https://khuraskin.github.io/project-air-asia/reviews.html"
+                                        class="menu__link">Отзывы</a>
                                 </li>
                             </ul>
                         </nav>
@@ -47,6 +48,12 @@
                         <address class="contacts__content">
                             <a href="tel:8 800 700 30 30" class="contacts__tel">8 800 700 30 30</a>
                             <div class="contacts__scheedule">График работы</div>
+                            <div class="contacts__title">
+                                <div class="contacts__title--content">
+                                    <strong class="mode__time">пн-вс: 09:00 - 20:00</strong>
+                                    <p class="mode__lunch">Обед: 14:00-14:30</p>
+                                </div>
+                            </div>
                         </address>
                     </div>
                 </div>
@@ -56,7 +63,8 @@
                 <nav class="reviews">
                     <ul class="reviews__item">
                         <li class="reviews__list">
-                            <a href="https://khuraskin.github.io/project-air-asia/index.html" class="reviews__link reviews__link--slash">Главная</a>
+                            <a href="https://khuraskin.github.io/project-air-asia/index.html"
+                                class="reviews__link reviews__link--slash">Главная</a>
                         </li>
                         <div class="slash">/</div>
                         <li class="reviews__list">
@@ -82,7 +90,7 @@
                                         <div class="impression__name">
                                             <a class="impression__link impression__social--img" href="#">Иван
                                                 Петрович</a>
-                                            <div class="impression__place">
+                                            <div class="impression__place impression__place--color--blue">
                                                 <p>Водопад Янг-бей</p>
                                             </div>
                                         </div>
@@ -112,7 +120,7 @@
                                         <div class="impression__name">
                                             <a class="impression__link impression__social--img" href="#">Лиза
                                                 Сидорова</a>
-                                            <div class="impression__place impression__place--tag">
+                                            <div class="impression__place impression__place--color--blue">
                                                 <p>Тур по Тайланду</p>
                                             </div>
                                         </div>
@@ -144,7 +152,7 @@
                                         <div class="impression__name">
                                             <a class="impression__link impression__social--img" href="#">Екатерина
                                                 Жмых</a>
-                                            <div class="impression__place impression__place--dark">
+                                            <div class="impression__place impression__place--color--blue">
                                                 <p>Тур на Остров обезьян</p>
                                             </div>
                                         </div>
@@ -174,7 +182,7 @@
                                         <div class="impression__name">
                                             <a class="impression__link impression__social--img" href="#">Антон
                                                 Игоревич</a>
-                                            <div class="impression__place">
+                                            <div class="impression__place impression__place--color--blue">
                                                 <p>Тур по Индонезии</p>
                                             </div>
                                         </div>
@@ -200,8 +208,7 @@
                         <div class="pagination__display pagination__display--list">Страница 1 из 7</div>
                         <ul class="pagination__list pagination__list--color--dark">
                             <li class="pagination__item ">
-                                <a class="pagination__links pagination__links--actives"
-                                    href="#">1</a>
+                                <a class="pagination__links pagination__links--actives" href="#">1</a>
                             </li>
                             <li class="pagination__item">
                                 <a class="pagination__links" href="#">2</a>
@@ -225,15 +232,87 @@
                     </div>
                 </div>
             </div>
-            <div class="review">
+            <section class="review">
                 <div class="container">
                     <div class="review__title">
                         <h2 class="review__subtitle">Подберем тур по вашим пожеланиям</h2>
-
+                        <div class="review__img">
+                            <img class="review__pic--content" src="../../img/review/couple.jpg" alt="">
+                        </div>
                     </div>
-
                 </div>
-            </div>
+            </section>
+            <section class="form">
+                <div class="container">
+                    <h2 class="form__title">Оставьте отзыв</h2>
+                    <form class="form">
+                        <div class="form__group form__group-type--controls">
+                            <input type="text" name="name" class="form__input" placeholder="Ваше имя">
+                            <input type="text" name="link" class="form__input" placeholder="Ссылка на профиль VK">
+                        </div>
+                        <div class="form__group">
+                            <textarea type="text" name="review" class="form__input form__input--type--textarea"
+                                placeholder="Напишите свой честный отзыв ;)"></textarea>
+                        </div>
+                        <div class="form__group">
+                            <div class="form__controls--title">
+                                <p>Какими услугами компании пользуетесь?</p>
+                            </div>
+                            <ul class="form__controls">
+                                <li class="form__control control">
+                                    <label class="control__label">
+                                        <input type="checkbox" name="tour__first" class="control__input">
+                                        <span class="control__tag impression__place">Остров обезьян</span>
+                                    </label>
+                                </li>
+                                <li class="form__control control">
+                                    <label class="control__label">
+                                        <input type="checkbox" name="tour__second" class="control__input">
+                                        <span class="control__tag impression__place">Тур по Тайланду</span>
+                                    </label>
+                                </li>
+                                <li class="form__control control">
+                                    <label class="control__label">
+                                        <input type="checkbox" name="tour__third" class="control__input">
+                                        <span class="control__tag impression__place">Водопад Янг-бей</span>
+                                    </label>
+                                </li>
+                                <li class="form__control control">
+                                    <label class="control__label">
+                                        <input type="checkbox" name="tour__fourth" class="control__input">
+                                        <span class="control__tag impression__place">Тур по Индонезии</span>
+                                    </label>
+                                </li>
+                                <li class="form__control control">
+                                    <label class="control__label">
+                                        <input type="checkbox" name="tour__none" class="control__input">
+                                        <span class="control__tag impression__place">Никакими</span>
+                                    </label>
+                                </li>
+                                <li class="form__control control">
+                                    <label class="control__label">
+                                        <input type="checkbox" name="tour__fifth" class="control__input">
+                                        <span class="control__tag impression__place">Тур по Бали</span>
+                                    </label>
+                                </li>
+                                <li class="form__control control">
+                                    <label class="control__label">
+                                        <input type="checkbox" name="other" class="control__input">
+                                        <span class="control__tag impression__place">Другое</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="form__group">
+                            <div class="form__buttons">
+                                <button class="btn btn--type--dark" type="reset"">Очистить</button>
+                                <button class="btn" type="submit"">Отправить</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
         </main>
 
         <footer class="footer">
@@ -254,7 +333,8 @@
                                 class="footer__link">Услуги</a>
                         </li>
                         <li class="footer__item">
-                            <a href="https://khuraskin.github.io/project-air-asia/reviews.html" class="footer__link">Отзывы</a>
+                            <a href="https://khuraskin.github.io/project-air-asia/reviews.html"
+                                class="footer__link">Отзывы</a>
                         </li>
                     </ul>
                 </nav>
