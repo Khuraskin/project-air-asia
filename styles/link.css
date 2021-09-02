@@ -1,4 +1,5 @@
 @import url("./main.css");
+@import url("./block/welcome.css");
 @import url("./normalize.css");
 @import url("./block/header.css");
 @import url("./block/hero.css");
@@ -12,4 +13,4 @@
 @import url("./block/social.css");
 @import url("./block/partners.css");
 @import url("./block/services.css");
-@import url("./block/welcome.css");
+
