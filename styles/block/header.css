@@ -1,8 +1,8 @@
 /*Header*/
 
 .header {
-  padding-top: 15px;
-    align-items: center;
+   padding-top: 15px;
+   align-items: center;
     margin: 0 0 66px 0;
   }
 
@@ -89,12 +89,12 @@
   }
 
   .contacts__title {
+    position: absolute;
     cursor: pointer;
     visibility: hidden;
     transition: 0.1s all ease-in-out;
     height: 93px;
     top: 67px;
-    right: 307px;
     background: url("../../img/Fon/rectangle.png") center center / cover no-repeat;
   }
 
