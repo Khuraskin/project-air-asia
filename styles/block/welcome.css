@@ -36,7 +36,15 @@
 
 .btn--welcome--main {
     align-self: center;
-}
+    text-decoration: none;
+    
+  }
+
+  .btn--welcome--main:hover {
+    background-color: #fff;
+    color: #f5170e;
+    border: 1px solid #f5170e;
+  }
 
 @keyframes zoom {
     10% {
