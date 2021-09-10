@@ -1,8 +1,8 @@
 /*form*/
 
 .form {
-    background-color: #F4F5F5;
-    padding-bottom: 40px;
+    background-color: #dedede;
+    padding-top: 40px;
     color: #1a1b1e ;
 }
 
@@ -17,6 +17,10 @@
     column-gap: 25px;
     margin-bottom: 26px;
 
+}
+
+.form__group--indent {
+    padding: 0 0 4px 0;
 }
 
 .form__group:last-child {
