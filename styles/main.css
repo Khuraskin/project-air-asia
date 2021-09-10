@@ -2,7 +2,7 @@
 
 .main {
   display: block;
-  margin-bottom: 88px;
+  
 }
 
 body {
@@ -15,6 +15,7 @@ html, body {
 
 .wrappers__head {
   background: url("../img/Header_footer/headline.jpg") center top no-repeat, linear-gradient(90deg, #01131d 50%, #002e3b 50%);
+  background-size: cover;
   margin-bottom: 80px;
   padding-bottom: 20px;
       
@@ -80,18 +81,26 @@ p {
 /*Button*/
 
 .btn {
-  border: 1px solid #f5170e;
+  border: 1px solid transparent;
   box-sizing: border-box;
   border-radius: 35px;
   padding: 18px 40px;
-  background-color: #FFFFFF;
+  background-color: #f5170e;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.4;
+  text-decoration: none;
   text-transform: uppercase;
-  color: #f5170e;
+  color: #fff;
   cursor: pointer;
-  align-self: end;
+  
+}
+
+.offers__btn {
+  border: 1px solid #f5170e;
+  background-color: #fff;
+  color: #f5170e;
+
 }
 
 .btn:hover {
@@ -100,11 +109,16 @@ p {
 }
 
 .btn--type--dark {
-    background-color: #8e8e8e;
+  background-color: #8e8e8e;
 }
 
 .btn--type--dark:hover {
-    background-color: #2B2B2B;
-    
+  background-color: #2B2B2B;
+  
 }
 
+.btn--type--light:hover {
+  background-color: #fff;
+  color: #f5170e;
+  border: 1px solid #f5170e;
+}
