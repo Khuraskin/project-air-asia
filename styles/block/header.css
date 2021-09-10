@@ -21,9 +21,17 @@
     justify-content: space-between;
   }
 
+  .hero__page--box {
+margin-bottom: 255px;
+  }
+
   .contacts {
     display: flex;
     align-items: center;
+  }
+
+  .contacts__content {
+    font-style: normal;
   }
 
   .header__contacts {
